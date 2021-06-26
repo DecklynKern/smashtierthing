@@ -1,3 +1,6 @@
+# made by deck 2021
+# https://twitter.com/___Deck___
+
 import pygame, os
 from aliases import *
 
