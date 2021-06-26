@@ -14,5 +14,3 @@ usage:
 - enter output folder
 - enter tags and characters
 - take images and upload them to tier maker or whatever else you want to use them for
-
-send issues to https://twitter.com/___Deck___
