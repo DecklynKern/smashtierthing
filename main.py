@@ -6,7 +6,7 @@ from aliases import *
 
 pygame.init()
 
-folder = input("folder: ")
+folder = input("folder (will be created if it doesn't exist): ")
 
 people = []
 
