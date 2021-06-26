@@ -91,7 +91,7 @@ for person in people:
     outputImage = folder + "\\" + name + ".png"
 
     if os.path.exists(outputImage):
-        print(outputImage + "already exists, overwriting")
+        print(outputImage + " already exists, overwriting")
 
     else:
         print("created " + outputImage)
