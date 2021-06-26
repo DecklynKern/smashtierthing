@@ -7,7 +7,7 @@ a simple program for putting names on smash ultimate character images for tier l
 the program will try to match to a valid character by removes spaces, common punctuation, ignoring case, and checking against common shorthands ("Dr. Mario", "drmario", and "doc" are all recognized) 
 
 requirements:
-python (3?), pygame
+python 3, pygame
 
 usage:
 - run main.py
