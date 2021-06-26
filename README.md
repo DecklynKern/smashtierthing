@@ -12,3 +12,5 @@ usage:
 - enter output folder
 - enter tags and characters
 - take images and upload them to tier maker or whatever else you want to use them for
+
+![sample](https://user-images.githubusercontent.com/71661150/123502804-43c70480-d60c-11eb-8ada-670b74b98648.png)
