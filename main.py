@@ -71,24 +71,24 @@ for person in people:
         outline = pygame.transform.scale(outline, (256, nHeight))
 
     surf = pygame.Surface((256, 256)).convert_alpha()
-    surf.blit(img, ((256 - width)/2, (256 - height)/2))
+    surf.blit(img, (int((256 - width) / 2), int((256 - height) / 2)))
 
-    nx = (256 - nWidth) / 2
+    nx = int((256 - nWidth) / 2)
     ny = 256 - nHeight
 
     # manually make a nice outline
     # pygame image editing is awesome
-    surf.blit(outline, (nx-2, ny))
-    surf.blit(outline, (nx-2, ny-2))
-    surf.blit(outline, (nx, ny-2))
-    surf.blit(outline, (nx+2, ny-2))
-    surf.blit(outline, (nx+2, ny))
-    surf.blit(outline, (nx+2, ny+2))
-    surf.blit(outline, (nx, ny+2))
-    surf.blit(outline, (nx-2, ny+2))
+    surf.blit(outline, (nx - 2, ny))
+    surf.blit(outline, (nx - 2, ny - 2))
+    surf.blit(outline, (nx, ny - 2))
+    surf.blit(outline, (nx + 2, ny - 2))
+    surf.blit(outline, (nx + 2, ny))
+    surf.blit(outline, (nx + 2, ny + 2))
+    surf.blit(outline, (nx, ny + 2))
+    surf.blit(outline, (nx - 2, ny + 2))
     surf.blit(nameText, (nx, ny))
 
-    outputImage = folder + name + ".png"
+    outputImage = folder + "\\" + name + ".png"
 
     if os.path.exists(outputImage):
         print(outputImage + "already exists, overwriting")
