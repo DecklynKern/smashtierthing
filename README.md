@@ -3,8 +3,7 @@
 a simple program for putting names on smash ultimate character images for tier list makers
 
 requirements:
-python (3?)
-pygame
+python (3?), pygame
 
 usage:
 - run main.py
