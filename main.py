@@ -73,7 +73,7 @@ for person in people:
     nx = (256 - nWidth) / 2
     ny = 256 - nHeight
 
-    # manually make a nice outline :)
+    # manually make a nice outline
     surf.blit(outline, (nx-2, ny))
     surf.blit(outline, (nx-2, ny-2))
     surf.blit(outline, (nx, ny-2))

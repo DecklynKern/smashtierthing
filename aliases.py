@@ -1,4 +1,4 @@
-# you're welcome
+# you're welcome :)
 aliases = {
     "banjo":    "banjoandkazooie",
     "bayo":     "bayonetta",
