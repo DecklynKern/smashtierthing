@@ -13,6 +13,7 @@ aliases = {
     "diddy":    "diddykong",
     "dk":       "donkeykong",
     "doc":      "drmario",
+    "duckhuntdog":  "duckhunt",
     "ganon":    "ganondorf",
     "ics":	"iceclimbers",
     "incin":	"incineroar",

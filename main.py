@@ -11,7 +11,7 @@ folder = input("folder (will be created if it doesn't exist): ")
 people = []
 
 while True:
-    
+
     name = input("tag (enter blank if done): ")
 
     if name == "":
@@ -19,7 +19,8 @@ while True:
 
     while True:
 
-        char = input("char: ").replace(" ", "").replace(".", "").replace("/", "").lower()
+        char = input("char: ")
+        char = char.replace(" ", "").replace(".", "").replace("/", "").replace("-", "").lower()
 
         if char in aliases:
             char = aliases[char]
@@ -88,7 +89,7 @@ for person in people:
     surf.blit(outline, (nx - 2, ny + 2))
     surf.blit(nameText, (nx, ny))
 
-    outputImage = folder + "\\" + name + ".png"
+    outputImage = folder + "\\" + name.replace("?", "") + ".png"
 
     if os.path.exists(outputImage):
         print(outputImage + " already exists, overwriting")
