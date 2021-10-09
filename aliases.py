@@ -36,6 +36,7 @@ aliases = {
     "pt":	"pokemontrainer",
     "trainer":	"pokemontrainer",
     "puff":	"jigglypuff",
+    "aegis":	"pyraandmythra",
     "pythra":	"pyraandmythra",
     "pyramythra": "pyraandmythra",
     "belmont":	"richter",
